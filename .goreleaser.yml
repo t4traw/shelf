@@ -1,0 +1,29 @@
+project_name: shelf
+env:
+  - GO111MODULE=on
+before:
+  hooks:
+    - go mod tidy
+builds:
+  - main: .
+    binary: shelf
+    ldflags: -s -w -X main.version={{.Version}} -X main.revision={{.ShortCommit}} -X main.date={{.Date}}
+archives:
+  - replacements:
+      darwin: darwin
+      linux: linux
+      windows: windows
+      amd64: x86_64
+    files:
+      - LICENSE
+      - CREDITS
+release:
+  prerelease: auto
+brews:
+  - tap:
+      owner: t4traw
+      name: homebrew-shelf
+    folder: Formula
+    homepage: "https://github.com/t4traw/shelf"
+    description: "CLI String Storage"
+    license: "MIT"

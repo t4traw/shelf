@@ -4,6 +4,13 @@ Shelf is a command-line tool that enables quick storage and retrieval of strings
 
 [日本語版READMEはこちら](README_ja.md)
 
+## Install
+
+```sh
+$ brew tap t4traw/shelf
+$ brew install shelf
+```
+
 ## Usage
 
 ### Storing Strings
