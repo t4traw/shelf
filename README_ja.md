@@ -7,8 +7,7 @@ Shelfは簡単にcliで文字列を保存・取得できるツールです。キ
 ## Install
 
 ```sh
-$ brew tap t4traw/shelf
-$ brew install shelf
+$ brew install t4traw/shelf/shelf
 ```
 
 ## Usage

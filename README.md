@@ -7,8 +7,7 @@ Shelf is a command-line tool that enables quick storage and retrieval of strings
 ## Install
 
 ```sh
-$ brew tap t4traw/shelf
-$ brew install shelf
+$ brew install t4traw/shelf/shelf
 ```
 
 ## Usage
