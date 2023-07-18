@@ -1,6 +1,6 @@
 # shelf - CLI String Storage
 
-Shelf is a command-line tool that enables quick storage and retrieval of strings. It's built with simplicity in mind, keeping your data right at your fingertips. Just set, get, and list.
+**shelf** is a command-line tool that enables quick storage and retrieval of strings. It's built with simplicity in mind, keeping your data right at your fingertips. Just set, get, and list.
 
 [日本語版READMEはこちら](README_ja.md)
 
