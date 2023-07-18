@@ -17,7 +17,7 @@ $ brew install t4traw/shelf/shelf
 Shelf takes its input from the standard output. For instance, if you have a text file called my_books.txt with line-separated entries, you can store the strings like so:
 
 ```sh
-$ cat my_books.text | shelf set books
+$ cat my_books.txt | shelf set books
 ```
 
 This command takes the output from cat my_books.text and stores it under the key books.

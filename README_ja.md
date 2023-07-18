@@ -17,7 +17,7 @@ $ brew install t4traw/shelf/shelf
 shelfは標準出力から入力を取ります。たとえば改行で区切られたmy_books.txtがあった場合、以下のように文字列を保存できます。
 
 ```sh
-$ cat my_books.text | shelf set books
+$ cat my_books.txt | shelf set books
 ```
 
 `cat my_books.text`の出力を取り、それを『books』というキーで保存します。
